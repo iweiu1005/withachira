@@ -1,0 +1,48 @@
+/* ===== Minimal vintage directory style ===== */
+    :root {
+      /* easy theme customization */
+      --bg: #fcfcfc;
+      --text: #000;
+      --link: #0066cc;
+    }
+
+    body {
+      font-size: 2rem;
+      margin: 2rem;
+      font-family: "Courier New", Courier, monospace;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    h1 {
+      font-size: 1.7rem;
+      margin-bottom: 1rem;
+      background-color: #ececec;
+      width: fit-content;
+      padding: 10px 25px;
+      border-radius: 50px;
+      font-family: math;
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      font-size: 1.5rem;  
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding: 4px 0;
+    }
+
+    /* simple prefixes */
+    .dir::before  { content: "[DIR]  "; color: #555; }
+    .file::before { content: "      "; }
