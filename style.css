@@ -185,7 +185,7 @@ a:hover {
   align-items: center;
   max-width: 600px;
   width: 340px;
-  height: 380px;
+  height: 480px;
   padding: 5px 0px 5px 0px;
   animation: fadeIn 1s ease-in-out;
 }
@@ -550,6 +550,7 @@ link-arrow {
 p.pabout {
   direction: rtl;
   font-family: "Rubik";
+      font-size: 11px;
 }
 .title-link {
   display: flex;
