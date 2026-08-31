@@ -377,6 +377,27 @@ a.other-link {
     align-items: center;
 }
 
+.profile-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.profile-wrapper img:first-child {
+    width: 90px;
+    border-radius: 100%;
+    display: block;
+}
+
+.badge-gif {
+  position: absolute;
+    top: 1px;
+    right: 3px;
+    width: 17px;
+    height: unset;
+    object-fit: cover;
+}
+
 .main-section p a {
   color: #ffc107;
   text-decoration: underline;
