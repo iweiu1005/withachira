@@ -533,6 +533,13 @@ link-arrow {
     align-items: flex-start;
 }
 
+.sociallink{
+        display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 /* connect link btn */
 
 .connectlink {
