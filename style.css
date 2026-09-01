@@ -298,7 +298,7 @@ a.other-link {
   font-size: x-small;
   margin-bottom: 10px;
   width:100%;
-  color: var(--link-hover);
+  color: var(--span-two);
 }
 
 .menu a {
@@ -828,7 +828,7 @@ body.copy-mode-active img:hover {
   border: none;
   color: #fff;
   cursor: pointer;
-  background-color: #ffe2e6;
+  background-color: #818FBC;
   transition: all 0.2s ease;
 }
 
