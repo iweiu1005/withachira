@@ -297,7 +297,7 @@ a.other-link {
   font-size: x-small;
   margin-bottom: 10px;
   width:100%;
-  color: var(--span-two);
+  color: var(--link-hover);
 }
 
 .menu a {
